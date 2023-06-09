@@ -1,0 +1,42 @@
+
+.img {
+    //outline: 1px solid green;
+    background-image: url(../../assets/images/portrait-1.png);
+    width: 339px;
+    height: 337px;
+    background-size: 100%;
+    margin: 0;
+}
+
+.black-background {
+    //outline: 1px solid green;
+    background-color: rgba(177,178,255,0.5);
+    width: 339px;
+    height: 495px;
+    border-radius: 2rem;
+    margin: 4rem;
+}
+
+.section-image-body {
+    display: inline-flex;
+}
+
+.position-under-image {
+    display: list-item;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: transparent;
+    list-style-type: none;
+}
+
+.stats {
+    background-color: transparent;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.thin {
+    font-weight: 300;
+}

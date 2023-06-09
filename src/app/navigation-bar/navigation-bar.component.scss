@@ -1,0 +1,75 @@
+.navigation-body {
+    // outline: 1px solid green;
+    padding: 4rem 0rem 0rem 8rem;
+}
+
+.navigation-content {
+    display: inline-flex;
+    // outline: 1px solid red;
+    width: 90%;
+}
+
+.logo {
+    // outline: 1px solid green;
+}
+
+.logo-image {
+    width: 64px;
+    height: 64px;
+}
+
+.about-text {
+    // outline: 1px solid red;
+    text-align: end;
+}
+
+.full-width {
+    width: 100%;
+    display: inline-flex;
+    justify-content: end;
+}
+
+.home-text {
+    margin-right: 1.5rem;
+}
+
+.about {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.image-overlay {
+    background-image: url('../../assets/images/under-text.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 1s ease;
+        transform: scale(0.2);
+}
+
+.about:hover .image-overlay {
+    opacity: 1;
+    position: relative;
+    display: flex;
+    height: 5%;
+    transform: scale(1);
+    width: 114%;
+    margin-left: -5px;
+}
+
+.form-control {
+    // outline: 1px solid red;
+    border: none;
+    margin-right: 2rem;
+    color: black;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin-bottom: auto;
+}
+
+// .sticky {
+//     position: fixed;
+//     width: 100%;
+// }

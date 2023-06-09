@@ -1,0 +1,38 @@
+<div class="navigation-body sticky">
+  <div class="navigation-content">
+    <div class="logo">
+      <img class="logo-image" src="../../assets/images/logoMK.png" />
+    </div>
+    <div class="full-width">
+      <select
+        class="form-control bold"
+        #selectedLang
+        (change)="switchLang(selectedLang.value)"
+      >
+        <option
+          *ngFor="let language of translate.getLangs()"
+          [value]="language"
+          [selected]="language === translate.currentLang"
+        >
+          <span>{{ language }}</span>
+        </option>
+      </select>
+      <div class="home-text" *ngIf="isAboutMePage()">
+        <a routerLink="/" routerLinkActive="active-link" class="about bold">
+          {{ "home" | translate }}
+          <span class="image-overlay"></span>
+        </a>
+      </div>
+      <div class="about-text">
+        <a
+          routerLink="about-me"
+          routerLinkActive="active-link"
+          class="about bold"
+        >
+          {{ "aboutme" | translate }}
+          <span class="image-overlay"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

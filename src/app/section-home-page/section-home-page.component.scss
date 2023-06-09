@@ -1,0 +1,112 @@
+.landing-page {
+    //outline: 1px solid red;
+    padding: 4rem;
+    width: auto;
+    height: 100%;
+}
+
+.ladning-page-body {
+    display: inline-flex;
+    //outline: 1px solid green;
+    height: auto;
+    width: 100%;
+}
+
+.section-image-body {
+    outline: none !important;
+}
+
+.landing-page-text-body {
+    //outline: 1px solid green !important;
+    display: grid;
+    align-content: center;
+}
+
+.landing-page-heading {
+    font-size: 2.25rem;
+}
+
+.landing-page-text-body {
+    font-size: 2.5rem;
+}
+
+.section-third-body {
+    height: 768px;
+    width: 100%;
+}
+
+.heading-text {
+    -webkit-text-stroke: 0.5px rgb(177, 178, 255);
+    color: transparent;
+    background: url(../../assets/images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back {
+    100%
+    {
+        background-position: 2000px 0;
+    }
+}
+
+.background {
+    background-image: url(../../assets/images/photo-2.png);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+}
+
+.section-third-body .section-text-body {
+    transform: translateY(50%);
+}
+
+  .main-body {
+    margin: auto;
+  }
+
+.main-text  {
+    margin-top: 2rem;
+}
+
+.white {
+    color: white;
+}
+
+.navigation-tab {
+    display: flex;
+}
+
+.navigation-tab-body {
+    background-color: rgb(177, 178, 255);
+    border-radius: 1rem;
+    position: fixed;
+    top: 90%;
+    left: 3%;
+    z-index: 999;
+}
+
+.item-list {
+    display: inline-flex;
+}
+
+.item-list-item {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    transition: transform 1s ease-in;
+    cursor: pointer;
+}
+
+.hovered {
+    background-color: rgb(210, 218, 255);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin: 0rem;
+    border-radius: 1rem;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-out, background-color 0.5s ease-out;
+    transition-delay: 0.2s;
+}
