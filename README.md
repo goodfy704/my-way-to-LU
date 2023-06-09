@@ -1,13 +1,19 @@
 # MyWayIntoLU
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+
 ATTENTION! IF YOU WANT TO RUN THE WEB, DO THE FOLLOWING STEP:
 
 1.Open termninal/cmd
+
 2.Go to location where you cloned the repo, e.g. use commands like cd <folder-name>, dir (to check what folder you are in), cd .. (to go back)
+  
 3.Run this command: npm i @angular/cli
+  
 4.Run this command: npm i @ngx-translate/http-loader
+  
 5.Then run this command to start web: ng serve --open
+  
 
 ## Development server
 
