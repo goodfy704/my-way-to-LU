@@ -14,6 +14,8 @@ ATTENTION! IF YOU WANT TO RUN THE WEB, DO THE FOLLOWING STEP:
   
 5.Then run this command to start web: ng serve --open
   
+6. If the web page did not showed up, then in your browser search type http://localhost:4200/
+  
 
 ## Development server
 
