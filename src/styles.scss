@@ -1,1 +1,308 @@
-/* You can add global styles to this file, and also import other style files */
+  * {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(238, 241, 255);
+    padding: 0;
+    margin: 0;
+    font-feature-settings: 'lnum' 1;
+    background-color: transparent;
+    // outline: 1px solid green;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      margin: 8px 0;
+  }
+
+  p {
+      margin: 0;
+  }
+
+  .content-body {
+      display: flex;
+  }
+
+  .section-template {
+      padding: 4rem;
+      display: inline-flex;
+      width: 80%;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .section-image-body {
+      //outline: 1px solid red;
+  }
+
+  .section-text-body {
+      //outline: 1px solid green;
+      width: 100%;
+  }
+
+  .center-p {
+    margin: 0rem 12rem;
+  }
+
+  .img-2012 {
+      background-image: url(./assets/images/photo-1.png) !important;
+    border-radius: 2rem;
+        margin: 4rem;
+        width: 478px;
+            height: 388px;
+    background-size: 100%;    }
+
+  .img-2015 {
+      //outline: 1px solid green;
+      border-radius: 2rem;
+      margin: 4rem;
+      background-image: url(./assets/images/photo-3.png);
+      width: 478px;
+      height: 388px;
+      background-size: 100%;
+  }
+  .img-2017 {
+      //outline: 1px solid green;
+      border-radius: 2rem;
+      margin: 4rem;
+      background-image: url(./assets/images/photo-4.png);
+      width: 478px;
+      height: 388px;
+
+  }
+  .img-2008 {
+      //outline: 1px solid green;
+      border-radius: 2rem;
+      margin: 4rem;
+      background-image: url(./assets/images/photo-6.png);
+      width: 478px;
+      height: 388px;
+
+  }
+
+  @keyframes blurAnimation {
+      0% {
+          filter: blur(5px);
+      }
+
+      100% {
+          filter: blur(0px);
+      }
+  }
+
+  .landing-page-text-body {
+    animation: blurAnimation 2s linear;
+  }
+
+  .img-home {
+    animation: blurAnimation 2s linear;
+      transform: translate(0, 0);
+      transition: all 3s;
+        transition: filter 2s ease-in-out;
+  }
+  .img-2020 {
+      //outline: 1px solid green;
+      border-radius: 2rem;
+      margin: 4rem;
+      background-image: url(./assets/images/photo-5.png);
+      width: 478px;
+      height: 388px;
+      background-size: 100%;
+  }
+  
+  .img-home {
+      //outline: 1px solid green;
+      border-radius: 2rem;
+      margin: 4rem;
+      background-image: url(./assets/images/photo-7.png);
+      width: 478px;
+      height: 388px;
+      background-size: 100%;
+  }
+  
+  
+  .center {
+    width: 98% !important;
+  }
+
+  .section-text-body .heading-text {
+      //outline: 1px solid green;
+      display: flex;
+      justify-content: center;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      width: max-content;
+  }
+
+  .heading-text {
+      -webkit-text-stroke: 0.5px rgb(177, 178, 255);
+      color: transparent;
+      background: url(../src/assets/images/back.png);
+      -webkit-background-clip: text;
+      background-position: 0 0;
+      animation: back 20s linear infinite;
+  }
+
+  @keyframes back {
+      100% {
+          background-position: 2000px 0;
+      }
+  }
+
+  .section-text-body .heading-text-line {
+      height: 1%;
+      display: flex;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+  .heading-body {
+      //outline: 1px solid green;
+      width: 100%;
+  }
+
+  .main-body {
+      //outline: 1px solid green;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+
+.extraBold {
+    font-weight: 800;
+}
+
+.semiBold {
+    font-weight: 600
+}
+
+.bold {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .ladning-page-body {
+        display: block !important;
+    }
+
+    .section-image-body {
+        width: 100%;
+        margin: -2.6rem !important;
+    }
+
+    .img-home {
+        width: 352px !important;
+        height: 282px !important;
+        margin: 0;
+    }
+
+    .heading-text-line {
+        display: none !important;
+    }
+
+    .main-body {
+        display: flex;
+            justify-content: center;
+            width: 125%;
+    }
+
+    .main-body p {
+        text-align: center;
+        margin: 0rem 2rem;
+    }
+
+    #section4 .main-body p {
+        margin-left: 12rem !important;
+        margin-right: 24rem !important;
+    }
+    .heading-body {
+        display: flex !important;
+        justify-content: flex-end;
+    }
+
+    .landing-page-text-body {
+        text-align: center;
+    }
+
+    .landing-page-heading {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .landing-page-text {
+        font-size: 2rem;
+    }
+
+    .section-template {
+        margin: 0 !important;
+        display: block;
+        padding: 0 !important;
+    }
+
+    .navigation-body {
+        padding: 4rem 0rem 0rem 3rem;
+    }
+
+    .img1 {
+        margin: 0 !important;
+        scale: 0.7;
+    }
+
+    .background {
+        width: 200% !important;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        position: relative;
+        left: -50%;
+    }
+
+    .navigation-tab-body {
+        display: none!important;
+    }
+
+    .footer .heading {
+        margin-left: 1rem !important;
+    }
+
+    .footer .socials {
+        margin-left: 0.8rem !important;
+    }
+
+    .footer .home {
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    .footer .about {
+        margin-right: -3rem !important;
+    }
+
+    .footer .email {
+        margin-left: -1.8rem !important;
+    }
+
+    .footer .logo-image {
+        margin-right: 2rem !important;
+    }
+
+    .navigation-body {
+        padding-left: 2rem !important;
+    }
+
+    .section-about-us .section-image-body {
+        display: block !important;
+    }
+
+    .section-about-us .heading-body {
+        margin-left: 1rem;
+    }
+
+    .section-about-us p {
+        margin-bottom: 4rem;
+        margin-left: 6rem;
+    }
+        
+}
