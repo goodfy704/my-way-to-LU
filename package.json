@@ -9,10 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ngx-translate/core": "^15.0.0"
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.0.5",
+    "@angular-devkit/build-angular": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.0.4",
     "@angular/router": "^16.0.4"
   }
